@@ -37,7 +37,7 @@ A module that provides the diabatic physical potential matrix for the subsequent
 INPUT: 
 the position variable x.
 
-OUTPUT:  
+OUTPUT:
 the value of the diabatic potential energy surfaces, couplings, and their derivatives with respect
 to position, V_ij and dV_ij.
 
