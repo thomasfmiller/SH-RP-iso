@@ -3,7 +3,7 @@ Example of ring polymer surface hopping (SH-RP-iso) for a two-level scattering p
 
 ### Any use of this code should cite the following paper:
 
-"Path-integral isomorphic Hamiltonian for including nuclear quantum effects in non-adiabatic dynamics"
+###### "Path-integral isomorphic Hamiltonian for including nuclear quantum effects in non-adiabatic dynamics"
 X. Tao, P. Shushkov, and T. F. Miller III, submitted, available at: arXiv:1709.06722.
 (Submitted to J. Chem. Phys.  Citation to be updated upon journal acceptance.)
 
@@ -13,7 +13,7 @@ scattering problem with a single nuclear degree of freedom, as employed in Fig. 
 Description of the enclosed files:
 
 ## [1] rpiso.f
-
+ 
 This subroutine computes the rpmd version of the isomorphic potential for a general 
 two-level system with one nuclear coordinate (Eqs. 16-19 in the paper), 
 as well as its derivative with respect to ring polymer bead positions. 
