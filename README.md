@@ -1,7 +1,7 @@
 # SH-RP-iso
 Example of ring polymer surface hopping (SH-RP-iso) for a two-level scattering problem
 
-Any use of this code should cite the following paper:
+### Any use of this code should cite the following paper:
 
 "Path-integral isomorphic Hamiltonian for including nuclear quantum effects in non-adiabatic dynamics"
 X. Tao, P. Shushkov, and T. F. Miller III, submitted, available at: arXiv:1709.06722.
