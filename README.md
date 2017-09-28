@@ -20,25 +20,25 @@ the isomorphic potential is diagonalized to obtain the adiabatic representation 
 the first-derivative non-adiabatic coupling, as described in the paper.
 
 ###### INPUT:
-- the number of beads for the ring-polymer, nbead,
-- the imaginary time step, \beta_n=\beta/nbead=\frac{1}/{nbead k_B T},
-- the position array of the ring-polymer \vec{x}, x[nbead].
+- the number of beads for the ring-polymer, nbead
+- the imaginary time step, \beta_n=\beta/nbead=\frac{1}/{nbead k_B T}
+- the position array of the ring-polymer \vec{x}, x[nbead]
 
 ###### OUTPUT:
-- adiabatic ring-polymer surfaces, V_{ii}ia
-- their derivative with respect to the ring-polymer bead position, dV_{ii}ia
-- first-derivative non-adiabatic couplings, D12i.
+- adiabatic ring-polymer surfaces, V11ia and V22ia
+- their derivative with respect to the ring-polymer bead position, dV11ia and dV22ia
+- first-derivative non-adiabatic couplings, D12i
 
 ## [2] model.f
 
 A module that provides the diabatic physical potential matrix for a two-level scattering problem in one dimension.
 
 ###### INPUT: 
-- the position variable, x.
+- the position variable, x
 
 ###### OUTPUT:
-- the diabatic potential energy matrix elements, V_ij
-- their derivatives with respect to position, dV_ij.
+- the diabatic potential energy matrix elements, Vij
+- their derivatives with respect to position, dVij
 
 ## [3] rpsh_iso_integrator.f
 
@@ -50,11 +50,11 @@ Runge-Kutta integrator, as described in the paper.
 ###### INPUT:
 - temperature, temp
 - timestep, dt
-- initial ring-polymer centroid position, xconstr
+- initial ring-polymer centroid position, xcin
 - initial ring-polymer centroid velocity, vcin
 
 ###### OUTPUT:
-- The SH-RP-iso trajectory as a function of time, \vec{x}(t), saved in the array x.
+- The SH-RP-iso trajectory.
 
 ## [4] main.f
 
