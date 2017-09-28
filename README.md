@@ -10,7 +10,7 @@ scattering problem with a single nuclear degree of freedom, as employed in Fig. 
 
 Description of the enclosed files:
 
-## [1] rpiso.f
+## [1] rp_iso.f
  
 This subroutine computes the rpmd version of the isomorphic potential for a general 
 two-level system with one nuclear coordinate (Eqs. 16-19 in the paper), 
@@ -40,9 +40,9 @@ A module that provides the diabatic physical potential matrix for a two-level sc
 - the diabatic potential energy matrix elements, Vij
 - their derivatives with respect to position, dVij
 
-## [3] rpsh_iso_integrator.f
+## [3] sh_rp_iso_integrator.f
 
-A mododule that uses  subroutines in [1] and [2] to evolve a SH-RP-iso trajectory. 
+A module that uses  subroutines in [1] and [2] to evolve a SH-RP-iso trajectory. 
 Initially, thermalized ring-polymer internal modes are sampled with a given 
 centroid position and velocity. Uses the velocity-Verlet algorithm with a fourth-order 
 Runge-Kutta integrator, as described in the paper.
