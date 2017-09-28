@@ -32,7 +32,7 @@ position, dV_{ii}ia; first-derivative non-adiabatic coupling, D12i.
 
 [2] model.f
 
-A module that provides the diabatic physical potential matrix for the subsequent calculations. 
+A module that provides the diabatic physical potential matrix for a two-level scattering problem in one dimension.
 
 INPUT: 
 the position variable x.
