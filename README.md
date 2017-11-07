@@ -20,8 +20,8 @@ the isomorphic potential is diagonalized to obtain the adiabatic representation 
 the first-derivative non-adiabatic coupling, as described in the paper.
 
 ###### INPUT:
-- the non-negative integer number log_{2}{nbead}, where nbead is the number of ring-polymer beads
-- the imaginary time step, \beta_n=\beta/nbead=\frac{1}/{nbead k_B T}
+- the non-negative integer log_2(nbead), where nbead is the number of ring-polymer beads
+- the imaginary timestep, \beta_n = \beta / nbead, where \beta is the reciprocal temperature
 - the position array of the ring-polymer \vec{x}, x[nbead]
 
 ###### OUTPUT:
